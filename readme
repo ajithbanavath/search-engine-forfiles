@@ -1,0 +1,47 @@
+The actions are
+
+	'addPage' followed by file name -> adds the page to the database.
+	
+	'queryFindPagesWhichContainWord' followed by the word -> gives the list of pages which contain the word in an order.
+	
+	'queryFindPositionsOfWordInAPage' followed by word and file -> gives the position of word in the file.
+	
+	'queryFindPagesWhichContainAllWords' followed by words separated by space -> gives the list of files which contain all the words in an order.
+
+	'queryFindPagesWhichContainAnyWord' followed by words separated by space -> gives the list of files which contain atleast one word in an order.
+
+	'queryFindPagesWhichContainPhrase' followed by phrase -> gives the list of files which contain the phrase in an order.
+
+
+
+
+Example actions:
+
+	addPage stack_datastructure
+	queryFindPagesWhichContainWord delhi
+	queryFindPagesWhichContainWord stack
+	queryFindPagesWhichContainWord wikipedia
+	queryFindPositionsOfWordInAPage stack stack_overflow
+	queryFindPagesWhichContainWord allain
+	addPage stack_cprogramming
+	queryFindPagesWhichContainWord allain
+	queryFindPagesWhichContainWord C
+	queryFindPagesWhichContainWord C++
+	addPage stack_oracle
+	queryFindPagesWhichContainWord jdk
+	addPage stackoverflow
+	queryFindPagesWhichContainWord function
+	addPage stacklighting
+	addPage stackmagazine
+	queryFindPagesWhichContainWord magazines
+	addPage stacks_and_queues
+	addPage cmu_stack
+	addPage studytonight
+	addPage auckland_stack
+	addPage geeks_quiz
+	queryFindPagesWhichContainAllWords data structure first
+	queryFindPagesWhichContainAnyOfTheseWords stack data structure first
+	queryFindPagesWhichContainPhrase data structure
+	queryFindPositionsOfWordInAPage stack stack_datastructure_wiki
+	queryFindPagesWhichContainWord applications
+	queryFindPagesWhichContainWord stack
